@@ -23,14 +23,14 @@
     line-height: 25px;
 }
 
-.story_text{
-    margin-right: 80px;
-}
-
 .sweet{
     font-family: 'Sweet';
     font-size: 26px;
     color: #8C1835;
+}
+
+.handMage_img{
+    margin-right: 30px;
 }
 
 h4{

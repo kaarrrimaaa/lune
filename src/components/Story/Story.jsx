@@ -8,7 +8,7 @@ export function Story() {
 
         <div className={s.story}>
             <div className={s.container}>
-                <img src={handMade} alt="" />
+                <img src={handMade} alt="" className={s.handMage_img}/>
                 <div className={s.story_text}>
                     <p>НЕМНОГО LUNE — МНОГО ТЕБЯ</p>
                     <h2>Создано вручную. Для <br />тех, кто остаётся собой.</h2>
