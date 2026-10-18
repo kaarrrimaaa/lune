@@ -1,0 +1,79 @@
+.header {
+    z-index: 100;
+    width: 100%;
+}
+
+.header_top {
+    background-color: #8C1835;
+    text-align: center;
+    padding: 10px 0;
+    color: #F7F3EF;
+    font-size: 14px;
+    height: 35px;
+    
+}
+.header_top p{
+    color: #F7F3EF;
+    font-weight: 100;   
+}
+
+.header_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-family: 'Vetrino';
+    font-size: 42px;
+    color: #E62940;
+    margin: 19.5px 0;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+
+}
+
+.nav a {
+    color: #191719;
+    font-size: 16px;
+}
+
+.navLink_active{
+    border-bottom: 2px solid #E62940;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+a.navLink_active {
+  color: #E62940;
+  border-bottom: 2px solid #E62940;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+
+.cart {
+    display: flex;
+    gap: 10px;
+}
+
+.itemCounter p{
+    color: #F7F3EF;
+    font-weight: 100;
+}
+
+.itemCounter{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #E62940;
+    padding-top: 2px;
+    color: #F7F3EF;
+}

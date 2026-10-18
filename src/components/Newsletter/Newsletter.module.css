@@ -1,0 +1,62 @@
+.newsletter{
+    background-color: #E62940; 
+    height: 307px; 
+    padding-top: 64px;
+    
+}
+
+.invitation h2{
+    color: #F7F3EF;
+    font-size: 43px;
+}
+.invitation p{
+    color: #FFB7C5;
+    font-weight: 100;
+}
+
+.container {
+  max-width: 1312px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5{
+    font-weight: 100;
+    font-size: 16px;
+    color: #FFB7C5;
+    margin-top: 16px;
+    line-height: 25px;
+}
+
+.sub_form{
+    display: flex;
+    gap: 12px;
+}
+
+.input{
+    width: 488px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #F7F3EF;
+    border: 1px solid #DCCED0;
+    padding-left: 29.5px;
+}
+
+.button{
+    padding: 17.5px 29.5px;
+    width: 152px;
+    height: 52px;
+    border-radius: 4px;
+    color: #8C1835;
+    background-color: #F7F3EF;
+}
+
+h6{
+    color: #F7F3EF;
+    font-weight: 100;
+    margin-top: 14px;
+    font-size: 12px;
+}

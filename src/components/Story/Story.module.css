@@ -1,0 +1,40 @@
+.story{
+    background-color: #FFB7C5;
+    margin-top: 72px;
+    display: flex;
+}
+
+.container{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.story_text h2{
+    font-size: 55px;
+    margin-top: 24px;
+    color: #8C1835;
+}
+.light{
+    font-weight: 100;
+    margin: 24px 0;
+    line-height: 25px;
+}
+
+.story_text{
+    margin-right: 80px;
+}
+
+.sweet{
+    font-family: 'Sweet';
+    font-size: 26px;
+    color: #8C1835;
+}
+
+h4{
+    font-family: 'Vetrino';
+    font-size: 26px;
+    color: #8C1835;
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Vetrino';
+  src: url('../assets/fonts/ofont.ru_Vetrino.ttf');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/assets/fonts/InterRegular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Sweet';
+  src: url('./assets/fonts/ofont.ru_Sweet%20Mavka%20Script.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background: #F7F3EF;
+}
+
+.container {
+  max-width: 1312px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

@@ -1,0 +1,42 @@
+.Brand_promises {
+    background: #FFB7C5;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1312px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marquee p{
+    color: #8C1835;
+    font-weight: 100;
+}
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marqueeTrack {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-right: 16px;
+  flex-shrink: 0;
+  animation: marquee 20s linear infinite;
+}
+
+.marqueeTrack p {
+  margin: 0;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-100%); }
+}
